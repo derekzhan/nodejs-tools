@@ -1,0 +1,6 @@
+2023-10-08 12:00:01 INFO User login from [IP_REDACTED], email: [EMAIL_REDACTED]
+2023-10-08 12:01:15 ERROR Payment failed for user [EMAIL_REDACTED], card: [CREDIT_CARD_REDACTED]
+2023-10-08 12:02:30 WARN Suspicious activity from [IP_REDACTED], email: [EMAIL_REDACTED]
+2023-10-08 12:03:45 INFO User logout from [IP_REDACTED]
+2023-10-08 12:04:59 INFO Password reset requested by [EMAIL_REDACTED]
+2023-10-08 12:05:10 ERROR Invalid card number: [CREDIT_CARD_REDACTED] for user [EMAIL_REDACTED]

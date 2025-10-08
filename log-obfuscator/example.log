@@ -1,0 +1,6 @@
+2023-10-08 12:00:01 INFO User login from 192.168.1.10, email: alice@example.com
+2023-10-08 12:01:15 ERROR Payment failed for user bob@example.com, card: 4111 1111 1111 1111
+2023-10-08 12:02:30 WARN Suspicious activity from 10.0.0.5, email: charlie@company.org
+2023-10-08 12:03:45 INFO User logout from 172.16.0.2
+2023-10-08 12:04:59 INFO Password reset requested by dave@domain.com
+2023-10-08 12:05:10 ERROR Invalid card number: 5500-0000-0000-0004 for user eve@web.net
