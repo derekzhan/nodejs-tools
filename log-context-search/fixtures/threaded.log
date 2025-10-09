@@ -1,0 +1,8 @@
+2024-05-06 09:10:00.000 DEBUG 1111 - [Thread-1] com.foo.Worker run: Starting task
+2024-05-06 09:10:00.050 ERROR 1111 - [Thread-1] com.foo.Worker run: Worker failed during processing
+java.lang.IllegalStateException: worker fail
+    at com.foo.Worker.run(Worker.java:12)
+2024-05-06 09:10:00.200 INFO 1111 - [Thread-2] com.foo.Auxiliary run: Completed cleanup
+2024-05-06 09:10:00.250 ERROR 1111 - [Thread-2] com.foo.Auxiliary run: Auxiliary failed
+java.lang.RuntimeException: aux fail
+    at com.foo.Auxiliary.execute(Auxiliary.java:21)

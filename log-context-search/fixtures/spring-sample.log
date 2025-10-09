@@ -1,0 +1,7 @@
+2024-05-05 10:00:00.123  INFO 12345 --- [main] com.example.App : Starting application
+2024-05-05 10:00:00.456  WARN 12345 --- [main] com.example.App : Preparing services
+2024-05-05 10:00:01.456 ERROR 12345 --- [main] com.example.Service : Something bad happened
+java.lang.RuntimeException: Boom
+    at com.example.Service.call(Service.java:42)
+    at com.example.App.main(App.java:10)
+2024-05-05 10:00:02.000  INFO 12345 --- [main] com.example.App : Completed startup

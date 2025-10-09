@@ -1,0 +1,12 @@
+{
+  "fields": [
+    { "name": "time", "type": "datetime", "pattern": "^\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}\\.\\d{3}" },
+    { "name": "level", "type": "string", "delimiter": " " },
+    { "name": "pid", "type": "string", "delimiter": " " },
+    { "name": "dash", "type": "string", "delimiter": " " },
+    { "name": "thread", "type": "string", "delimiter": "] " },
+    { "name": "logger_method_line", "type": "string", "delimiter": " :" },
+    { "name": "colon", "type": "string", "delimiter": " " },
+    { "name": "message", "type": "rest" }
+  ]
+}
