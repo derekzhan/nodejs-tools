@@ -1,5 +1,5 @@
 {
-  "name": "logctx",
+  "name": "logctxsearch",
   "version": "1.0.0",
   "type": "module",
   "description": "High-performance Log Context Search CLI for Java logs.",

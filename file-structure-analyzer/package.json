@@ -1,6 +1,6 @@
 {
-  "name": "@derekzhan/file-structure-analyzer",
-  "version": "1.0.1",
+  "name": "file-structure-analyzer",
+  "version": "1.0.2",
   "type": "module",
   "description": "A CLI tool for analyzing file and directory structure.",
   "main": "index.js",
