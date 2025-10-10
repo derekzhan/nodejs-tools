@@ -9,6 +9,8 @@ It contains various utilities that help automate, analyze, and simplify common t
 
 - **log-obfuscator**: Obfuscate sensitive information (such as IP addresses, emails, credit card numbers) in log files or directories before sharing. Supports built-in and custom patterns, and efficiently processes large files using Node.js streams.
 
+- **log-context-search**: A flexible and configurable tool for searching and filtering logs based on user-defined patterns. Supports filtering by keywords, threads, time ranges, and more. Designed to handle large log files efficiently.
+
 More tools will be added over time to cover more use cases in daily development.
 
 ## Usage
