@@ -1,0 +1,17 @@
+{
+  "name": "logctxsearch",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "High-performance Log Context Search CLI for Java logs.",
+  "main": "index.js",
+  "bin": {
+    "logctx": "./index.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "commander": "^14.0.1",
+    "yaml-js": "^0.3.1"
+  }
+}

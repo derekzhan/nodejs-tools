@@ -1,0 +1,29 @@
+{
+  "name": "log-obfuscator",
+  "version": "1.0.0",
+  "description": "A CLI tool to obfuscate sensitive information (IP, email, credit card, etc.) in log files or directories before sharing.",
+  "bin": {
+    "log-obfuscator": "./index.js"
+  },
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "keywords": [
+    "log",
+    "obfuscate",
+    "privacy",
+    "cli",
+    "mask",
+    "anonymize",
+    "nodejs",
+    "security"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^14.0.1"
+  }
+}
