@@ -242,7 +242,7 @@ function createFilter({ levels, keywords, thread, fromMs, toMs, ignoreCase }) {
 
 function createPrinter({ jsonOutput }) {
   const labelForRole = {
-    match: '[MATCH]',
+    match: '',
     'context-before': '[BEFORE]',
     'context-after': '[AFTER]',
   };
@@ -267,11 +267,11 @@ function createPrinter({ jsonOutput }) {
 
     const label = labelForRole[role] ?? '[LOG]';
     const [firstLine, ...rest] = record.lines;
-    process.stdout.write(`${label} ${firstLine}\n`);
+    process.stdout.write(`${label}${firstLine}\n`);
     for (const line of rest) {
-      process.stdout.write(`        ${line}\n`);
+      process.stdout.write(`${line}\n`);
     }
-    process.stdout.write('\n');
+    //process.stdout.write('\n');
   };
 }
 
